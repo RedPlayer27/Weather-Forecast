@@ -7,7 +7,7 @@ export default function Forecast({ city }) {
 
   useEffect(() => {
     const fetchForecast = async () => {
-      const apiKey = "f3ad69a4c67ea88a6c2458d2213ab87c";
+      const apiKey = "";
   const url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
 
       // const apiKey = "f3ad69a4c67ea88a6c2458d2213ab87c";
@@ -43,3 +43,4 @@ export default function Forecast({ city }) {
     </section>
   );
 }
+
